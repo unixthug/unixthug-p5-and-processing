@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(20,20,40);
+  background-color: rgb(0, 40, 100);
 }
 .navbar a {
   float:none;
@@ -13,7 +13,8 @@ html, body {
   text-shadow: 2px 2px 5px black;
 }
 .links a:hover {
-  background-color: rgb(100, 0, 40);
+  background-color: rgb(0, 20, 50);
+
 }
 .navbar a:active {
   background-color: #b4b4d4;
@@ -22,15 +23,16 @@ html, body {
 h1 {
   display: inline-block;
   font-weight: bold;
-  color: rgb(150, 100, 120);
-  text-shadow: 5px 5px black;
+  color: rgb(90, 120, 150);
   font-size: 500%;
+  text-shadow: 5px 5px 0px black;
 }
-.square {
-  height: 15px;
-  width: 15px;
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 0% 50% 50% 50%;
   margin-left: 5px;
-  background-color: rgb(255,0,80);
+  background-color: rgb(0, 60, 255);
   display: inline-block;
 }
 canvas {
@@ -39,7 +41,7 @@ canvas {
   display: block;
 }
 .sig {
-  color: rgb(150, 100, 120);
+  color: rgb(90, 120, 150);
   font-weight: bold;
   position: absolute;
   bottom: 0;

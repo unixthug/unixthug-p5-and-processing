@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 40, 100);
+}
+.navbar {
+  padding: 16px;
+  background-color: black;
+}
+.navbar a {
+  float:none;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: rgb(0, 20, 50);
+}
+.navbar a:active {
+  background-color: #b4b4d4;
+  color: white;
+}
+.clear_button {
+  position: fixed;
+  left:46%;
+  color: rgb(226, 224, 224);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgb(139, 139, 139);
+  box-shadow: 0 5px rgb(73, 73, 73);
+  border: none;
+  border-radius: 5px;
+}
+.clear_button:active {
+  background-color: rgb(73,73,73);
+  box-shadow: none;
+  transform: translateY(5px);
+}
+h1 {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(90, 120, 150);
+  font-size: 500%;
+  text-shadow: 5px 5px 0px black;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 0% 50% 50% 50%;
+  margin-left: 5px;
+  background-color: rgb(0, 60, 255);
+  display: inline-block;
+}
+canvas {
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
+.sig {
+  color: rgb(90, 120, 150);
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0,20,20);
+}
+.navbar {
+  padding: 16px;
+  background-color: black;
+}
+.navbar a {
+  float:none;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+}
+.links a:hover {
+  background-color: rgb(0, 55, 40);
+}
+.navbar a:active {
+  background-color: #b4b4d4;
+  color: white;
+}
+.reset_button {
+  position: fixed;
+  left: 35%;
+  color: rgb(226, 224, 224);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgb(81, 119, 81);
+  box-shadow: 0 5px rgb(0,55,40);
+  border: none;
+  border-radius: 5px;
+}
+.reset_button:active {
+  background-color: rgb(0,55,40);
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.size_button {
+  position: relative;
+  display: inline;
+  text-align: justify;
+  text-align-last: center;
+  left: 58%;
+  color: rgb(226, 224, 224);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgb(81, 119, 81);
+  box-shadow: 0 5px rgb(0,55,40);
+  border: none;
+  border-radius: 5px;
+}
+.size_button:active {
+  background-color: rgb(0,55,40);
+  box-shadow: none;
+  transform: translateY(5px);
+}
+h1 {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(127, 185, 127);
+  text-shadow: 7px 7px black;
+  font-size: 450%;
+}
+
+canvas {
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
+.sig {
+  color: rgb(0,150,0);
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
